@@ -95,7 +95,7 @@ const loadQuestion= () => {
       }else{
         showScore.innerHTML = `
           <h3> You scored ${score}/${quizDB.length} </h3>
-          <button class = ""btn onclick="location.reload()"> Play Again </button>
+          <button class = ""btn onclick="location.reload()" style="font-size: 2.5rem; font-weight: 400; background-color: #55efc4; padding: 3px; border-radius: 5px; margin-top:5px; curser:pointer"> Play Again </button>
         
         `;
         showScore.classList.remove('scoreArea');
